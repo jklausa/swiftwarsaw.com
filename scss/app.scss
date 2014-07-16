@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,700italic,300,300italic,400,400italic&subset=latin,latin-ext);
 @import "settings";
 @import "foundation";
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+.bg-dark {
+    background-color: #f7f6f6;
+}
+
+.bg-orange {
+    background-color: $header-font-color;
+}
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
