@@ -14,8 +14,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $header-font-color;
 }
 
-.large-12 h1 {
-    text-align: center;
+@media #{$large-up} {
+    .large-12 h1 {
+        text-align: center;
+    }
 }
 
 .next-meeting h1 {
