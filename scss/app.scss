@@ -90,3 +90,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.event-link {
+    display: block;
+    font-weight: bold;
+    color: $header-font-color;
+    border: 3px solid #f5863f;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}

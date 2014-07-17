@@ -2407,3 +2407,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 }
+/* line 93, ../scss/app.scss */
+.event-link {
+  display: block;
+  font-weight: bold;
+  color: #f47a27;
+  border: 3px solid #f5863f;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
